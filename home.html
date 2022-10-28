@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+            <link rel="stylesheet" href="styles.css">
+     
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    
+    <style>
+ body{
+
+background-image: url('AA.gif');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+.dia{
+  width: 15px;
+  height: 45px;
+  opacity: 0.5;
+  border-radius: 50%;
+
+}
+.quotes {display: none;}
+
+</style>
+    </style>    
+  </head>
+  <!-- //music -->
+  <body onload="myFunction()">
+    <!-- slow-mo  -->
+    <div class="w3-container w3-center w3-animate-fading">
+
+    <nav class="navbar">
+      <br>
+      <ul class="nav navbar-nav">
+        <li><a href="home.html" style="color: white">Home</a></li>
+        <li><a href="about.html" style="color: white">About</a></li>
+        <li><a href="meditation.html" style="color: white">Meditations</a></li>
+        <li><a href="contact.html" style="color: white">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        
+
+        <button id="one" onclick="exchange1()">
+          <div id="dataHere1"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+        <button id="six" onclick="exchange6()">
+          <div id="dataHere6"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+
+        <button id="four" onclick="exchange4()">
+          <div id="dataHere4"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+
+        <button id="five" onclick="exchange5()">
+          <div id="dataHere5"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+        <button id="three" onclick="exchange3()">
+          <div id="dataHere3"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+
+        <button id="seven" onclick="exchange7()">
+          <div id="dataHere7"></div>
+          <img class="dia" src="Drip.png" />meeee
+        </button>
+
+        <button id="elleven" onclick="exchange11()">
+          <div id="dataHere11"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+
+        <button id="nine" onclick="exchange9()">
+          <div id="dataHere9"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+        <button id="two" onclick="exchange2()">
+          <div id="dataHere2"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+
+        <button id="ten" onclick="exchange10()">
+          <div id="dataHere10"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+        <button id="eight" onclick="exchange8()">
+          <div id="dataHere8"></div>
+          <img class="dia" src="Drip.png" />
+        </button>
+      </div>
+    </div>
+</div>
+    <div class="containers">
+      <h2 class="quotes">Click on a Slow Drop</h2>
+      <h1 class="quotes">Click on a Slow Drop</h2>
+      <h2 class="quotes"> Click on a feeling for guided Meditation</h2>
+      <h1 class="quotes"><a class="nav-link" style="text-decoration: none" href="index.html">Reset </a></h2>
+
+    </div>
+
+    
+   </div> 
+    <script src="index.js"></script>
+    <script>
+      let audio = new Audio("B.mp3");
+
+      function myFunction() {
+        audio.play();
+      }
+
+      setTimeout(function () {
+        window.location.reload();
+      }, 49000);
+
+      (function () {
+        var quotes = $(".quotes");
+        var quoteIndex = -1;
+
+        function showNextQuote() {
+          ++quoteIndex;
+          quotes
+            .eq(quoteIndex % quotes.length)
+            .fadeIn(2000)
+            .delay(2000)
+            .fadeOut(2000, showNextQuote);
+        }
+
+        showNextQuote();
+      })();
+    </script>
+
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  </body>
+  </div>
+</html>

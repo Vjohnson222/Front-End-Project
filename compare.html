@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+            <link rel="stylesheet" href="styles.css">
+     
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    
+    <style>
+      body{
+
+        background-image: url('AA.gif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+        .dia{
+          width: 15px;
+          height: 45px;
+          opacity: 0.5;
+          border-radius: 50%;
+
+        }
+        .quotes {display: none;}
+        
+       </style>
+ </head>
+
+<body>
+ 
+ 
+  <nav class="navbar ">
+  
+    
+    <ul class="nav navbar-nav" >
+      <li><a href="index.html" style="color:white">Home</a></li>
+      <li><a href="about.html"style="color:white" >About</a></li>
+      <li><a href="meditation.html"style="color:white" >Meditations</a></li>
+      <li><a href="contact.html"style="color:white" >Contact</a></li>
+
+    </ul>
+      </nav>
+     
+      <div class="containers">
+        <h2 class="quotes">Click on a Drop</h2>
+        <h2 class="quotes">Click on a Drop</h2>
+        <h2 class="quotes">Then Click on a feeling</h2>
+              </div>
+    
+<div class="container">
+  <div class="row">
+    
+    <h1></h1>
+         
+
+    <button id="one" onclick="exchange1()"><div id="dataHere1"> </div><img class="dia" src="Drip.png" >1</button>
+    <button id="six"  onclick="exchange6()"> <div id="dataHere6"></div><img class="dia" src="Drip.png" >6</button>
+
+    <button id="four" onclick="exchange4()"> <div id="dataHere4"></div><img class="dia" src="Drip.png">4</button>
+
+    <button id="five" onclick="exchange5()"> <div id="dataHere5"></div><img class="dia" src="Drip.png" >5</button>
+    <button id="three"onclick="exchange3()"> <div id="dataHere3"></div><img class="dia" src="Drip.png" >3</button>
+
+    <button id="seven"onclick="exchange7()"> <div id="dataHere7"></div><img class= "dia" src="Drip.png">7HEllooooo</button>
+
+    <button id="elleven"onclick="exchange11()"><div id="dataHere11"></div><img class="dia" src="Drip.png" >11</button>
+
+    <button id="nine" onclick="exchange9()"> <div id="dataHere9"></div><img class= "dia" src="Drip.png" >9</button>
+    <button id="two" onclick="exchange2()"> <div id="dataHere2"></div><img class="dia" src="Drip.png" >2</button>
+
+    <button id="ten"  onclick="exchange10()"> <div id="dataHere10"></div><img class= "dia" src="Drip.png" >10</button>
+    <button id="eight"onclick="exchange8()"> <div id="dataHere8"></div><img class= "dia" src="Drip.png">8</button>
+
+
+    
+            <div style="display:none"> 
+              <audio controls autoplay>
+                <source src="B.mp" type="audio/mpeg">
+            </audio>
+           </div>
+  <script src="index.js"></script>
+  </div>
+</div>
+  <script>
+
+setTimeout(function(){
+   window.location.reload();
+}, 49000);
+
+(function() {
+
+var quotes = $(".quotes");
+var quoteIndex = -1;
+
+function showNextQuote() {
+  ++quoteIndex;
+  quotes.eq(quoteIndex % quotes.length)
+    .fadeIn(2000)
+    .delay(2000)
+    .fadeOut(2000, showNextQuote);
+}
+
+showNextQuote();
+
+})();
+  </script>
+  
+      <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    </body>
+  </html>
+  
+  

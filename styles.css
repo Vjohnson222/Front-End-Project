@@ -1,0 +1,297 @@
+
+.navbar  {
+  font-family: Montserrat, sans-serif;
+  top: -40px;
+  margin-top: 10px;
+  background: transparent;
+  border: 0;
+  font-size: 22px !important;
+  letter-spacing: 4px;
+  }
+ul.nav a:hover { 
+background-color: transparent !important; 
+color:#88bce1 !important;
+font-weight: bold;
+}
+
+body {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 0;
+  }
+  .dia{
+    width: 15px;
+    height: 45px;
+    opacity: 0.5;
+    border-radius: 50%;
+  }
+  .quotes {
+    display: none;
+  }
+  .containers{
+    color: #4c88b2;
+     margin-top: 80px;
+    }
+    .reset{
+      color: #4c88b2;
+       margin-top: 80px;
+      }
+/* ---------------------from here--Stars--------------------------------------------------------- */
+  /* ----------------------------ONE------------------------------------------------------ */
+
+  #one {
+      font-size: 20px;
+      width: 350px;
+      height: 10px;
+      background: transparent;
+      position: relative;
+
+      animation-name: example1;
+      animation-duration: 80s;  
+      animation-fill-mode: backwards;
+      border-radius: 50%;
+      border-color: transparent;
+/* //spacing good */
+      left: -120px;
+      animation-iteration-count: infinite;
+      color: white;
+  
+    }
+    
+    @keyframes example1 {
+      from {top: -330px;}
+      
+      to {top: 600px; 
+        color: transparent;
+      }
+    }
+  
+    /* ----------------------------TWO------------------------------------------------------ */
+    #two {
+      font-size: 20px;
+      width: 350px;
+      height: 10px;
+      background: transparent;
+      position: relative;
+
+      animation-name: example2;
+      animation-duration: 60s;  
+      animation-fill-mode: backwards;
+      border-radius: 50%;
+      border-color: transparent;
+      left: -220px;
+     animation-iteration-count: infinite;
+      color: white;
+  
+    }
+    
+    @keyframes example2 {
+      from {top: -530px;}
+      
+      to {top: 400px;        
+         color: transparent;
+      }
+    }
+      /* ----------------------------THREE------------------------------------------------------ */
+      #three {
+        font-size: 20px;
+        width: 350px;
+        height: 10px;
+          background: transparent;
+          position: relative;
+          animation-name: example3;
+          animation-duration: 100s;  
+  
+          animation-fill-mode: forwards;
+          border-radius: 50%;
+          border-color: transparent;
+          animation-iteration-count: infinite;
+          color: white;
+          left: -220px;
+        }
+       
+        
+        @keyframes example3 {
+          from {top: -530px;}
+          to {top: 300px; 
+            color: transparent;}
+        }
+        /* ----------------------------FOUR------------------------------------------------------ */
+        #four {
+          font-size: 20px;
+          width: 350px;
+          height: 10px;
+          background: transparent;
+          position: relative;
+          animation-name: example4;
+          animation-duration: 80s;      
+  
+          animation-fill-mode: forwards;
+          border-radius: 50%;
+          border-color: transparent;
+          animation-iteration-count: infinite;
+          color: white;
+
+          left: 80px;
+        }
+     
+        
+        @keyframes example4 {
+          from {top: -230px;}
+          to {
+            top: 400px; 
+            color: transparent;
+          }
+        }
+          /* ----------------------------FIVE------------------------------------------------------ */
+          #five {
+            font-size: 20px;
+              width: 350px;
+             height: 10px;
+             background: transparent;
+              position: relative;
+              animation-name: example5;
+              animation-duration: 50s;  
+  
+              animation-fill-mode: forwards;
+              border-radius: 50%;
+              border-color: transparent;
+              animation-iteration-count: infinite;
+              color: white;
+
+              left: 500px;
+            }
+        
+            
+            @keyframes example5{
+              from {top: -230px;}
+              to {top: 400px; 
+                color: transparent;}
+            }
+            /* ----------------------------SIX------------------------------------------------------ */
+            #six {
+              font-size: 20px;
+              width: 350px;
+              height: 10px;
+              background: transparent;
+              position: relative;
+              animation-name: example6;
+              animation-duration: 70s;  
+              animation-fill-mode: backwards;
+              border-radius: 50%;
+              border-color: transparent;
+
+              left: -120px;
+              animation-iteration-count: infinite;
+              color:white;
+            }
+                    
+            @keyframes example6 {
+              from {top: -830px;}
+              to {top: 400px;
+              color: transparent;
+              }
+            }
+            /* -------------------------------7------------------------------ */
+
+            #seven {
+                background: transparent;
+                position: relative;
+                animation-name: example7;
+                animation-duration: 50s;      
+                animation-fill-mode: forwards;
+                border-radius: 50%;
+                border-color: transparent;
+                animation-iteration-count: infinite;
+                color: white;  
+                left: -300px;
+              }                         
+              @keyframes example7{
+                from {top: -630px;
+                  width: 300;}
+                to {top: 400px;                   
+                  color: transparent;}
+              }
+
+              /* 8 */
+
+              #eight {
+                background: transparent;
+                position: relative;
+                animation-name: example8;
+                animation-duration: 30s;      
+                animation-fill-mode: forwards;
+                border-radius: 50%;
+                border-color: transparent;
+                animation-iteration-count: infinite;
+                color: white;  
+                left: -500px;
+              }                         
+              @keyframes example8{
+                from {top: -430px;
+                  width: 300;}
+                to {top: 200px;                   
+                  color: transparent;}
+              }
+
+              /* 9----------- */
+
+              #nine {
+                background: transparent;
+                position: relative;
+                animation-name: example9;
+                animation-duration: 20s;      
+                animation-fill-mode: forwards;
+                border-radius: 50%;
+                border-color: transparent;
+                animation-iteration-count: infinite;
+                color: white;  
+                left: -400px;
+              }                         
+              @keyframes example9{
+                from {top: -430px;
+                  width: 300;}
+                to {top: 400px;                   
+                  color: transparent;}
+              }
+
+ /* 9----------- */
+
+              #ten {
+                background: transparent;
+                position: relative;
+                animation-name: example10;
+                animation-duration: 10s;      
+                animation-fill-mode: forwards;
+                border-radius: 50%;
+                border-color: transparent;
+                animation-iteration-count: infinite;
+                color: white;  
+                left: 10px;
+              }                         
+              @keyframes example10{
+                from {top: -430px;
+                  width: 300;}
+                to {top: 800px;                   
+                  color: transparent;}
+              }
+              #elleven {
+                background: transparent;
+                position: relative;
+                animation-name: example10;
+                animation-duration: 30s;      
+                animation-fill-mode: forwards;
+                border-radius: 50%;
+                border-color: transparent;
+                animation-iteration-count: infinite;
+                color: white;  
+                left: 10px;
+              }                         
+              @keyframes example10{
+                from {top: -430px;
+                  width: 300;}
+                to {top: 400px;                   
+                  color: transparent;}
+              }
+             
+
