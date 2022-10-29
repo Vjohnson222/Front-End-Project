@@ -47,7 +47,7 @@ body {
       position: relative;
 
       animation-name: example1;
-      animation-duration: 80s;  
+      animation-duration: 90s;  
       animation-fill-mode: backwards;
       border-radius: 50%;
       border-color: transparent;

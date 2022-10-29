@@ -65,8 +65,7 @@ let url4 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/"
         console.log(data);
         area4.innerHTML = `<a href="med4.html">Laughter</a><br/><br/><br/><br/>"${data[0].q} "`;
 
-     
-      });
+           });
   }
 // ------------script 5---------------------------------------
 let area5 = document.getElementById("dataHere5");    
@@ -105,103 +104,72 @@ let url6 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/"
       });
   }
 
-  // script 7 
+// ------------script 7---------------------------------------
 
   let area7 = document.getElementById("dataHere7");    
-// this will become youtube 
-// let url7 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+
 
  
   function exchange7() {
-    // fetch(url6)
-    //   .then((response) => {
-    //     return response.json();
-    //   })
-    //   .then((data) => {
+
         console.log("Hello");
-        area7.innerHTML = `<a href="med6.html">Hello</a><br/><br/><br/><br/>`;
+        area7.innerHTML = `<a href="med6.html">Gratitude</a><br/><br/><br/><br/>`;
 
      
-      // });
+    
   }
 
-   // script 8
+// ------------script 8---------------------------------------
 
    let area8 = document.getElementById("dataHere8");    
-   // this will become youtube 
-   // let url7 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+  
    
     
      function exchange8() {
-       // fetch(url6)
-       //   .then((response) => {
-       //     return response.json();
-       //   })
-       //   .then((data) => {
+      
            console.log("Hello");
            area8.innerHTML = `</a><br/><br/><br/><br/>`;
    
-        
-         // });
      }
 
-  // 9
+// ------------script 9---------------------------------------
 
       let area9 = document.getElementById("dataHere9");    
-   // this will become youtube 
-   // let url7 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+ 
    
     
      function exchange9() {
-       // fetch(url6)
-       //   .then((response) => {
-       //     return response.json();
-       //   })
-       //   .then((data) => {
+   
            console.log("Hello");
            area9.innerHTML = `<br/><br/><br/><br/>`;
-   
-        
-         // });
-     }
-
-     // 10
+          }
+    // ------------script 10---------------------------------------
 
      let area10 = document.getElementById("dataHere10");    
-     // this will become youtube 
-     // let url7 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+    
      
       
        function exchange10() {
-         // fetch(url6)
-         //   .then((response) => {
-         //     return response.json();
-         //   })
-         //   .then((data) => {
+   
              console.log("Hello");
              area10.innerHTML = `<br/><br/><br/><br/>`;
      
           
-           // });
-       }
+             }
 
-      // 10
+      // ------------script 11---------------------------------------
+
 
       let area11 = document.getElementById("dataHere11");    
-      // this will become youtube 
-      // let url7 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+      
       
        
         function exchange11() {
-          // fetch(url6)
-          //   .then((response) => {
-          //     return response.json();
-          //   })
-          //   .then((data) => {
+         
               console.log("Hello");
               area11.innerHTML = `<br/><br/><br/><br/>`;
       
            
-            // });
         }
+
 
