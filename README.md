@@ -2,6 +2,8 @@
 
 ZenCents is an HTML, CSS & JavaScript Application that focusses in on the use of Zen Quotes and Guided Meditation to relieve stress and anxiety.
 
+![image](https://github.com/Vjohnson222/Front-End-Project/blob/main/start.png)
+
 ## APIs Used
 
 ZenCents makes use of 3 separate API calls
@@ -19,18 +21,15 @@ let area1 = document.getElementById("dataHere1");
 
 let url ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
 
- 
-  function exchange1() {
+   function exchange1() {
     fetch(url)
       .then((response) => {
         return response.json();
       })
       .then((data) => {
         console.log(data);
-        area1.innerHTML = `<a href="med1.html">Peace</a><br/><br/><br/><br/>"${data[0].q} "`;
-
-     
-      });
+       area1.innerHTML=`<a href="med1.html">Peace</a><br/><br/>"${data[0].q} "`;
+       });
   }
 ```
 
