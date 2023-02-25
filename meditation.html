@@ -17,29 +17,32 @@
         top: 20px;
       }
       body {
-        background-image: url("AAA.gif");
+        background-image: url("./images/water2.gif");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
       }
-
+.container{
+margin-left: -320px;
+}
       #video {
         position: fixed;
         text-align: center;
-        width: 860px;
+        /* width: 460px; */
         border-radius: 50%;
         top: 100px;
-        left: 30px;
-        opacity: 0.5;
+        left: 420px;
+        /* opacity: 0.5; */
       }
       .thumb {
-        width: 120px;
+        width: 90px;
         height: 70px;
         border-radius: 4px;
         color: white;
       }
       main {
-        padding: 370px 18px 10px;
+        padding-top: 350px;
+       margin-left: 20px;
       }
       article {
         display: flex;
@@ -49,7 +52,11 @@
         transition: all 0.2s ease;
         margin: 0 auto;
         color: white;
+        width: 40%; /* Set the width of the element to 70% to use only 30% of the space to the left */
+        left: 60%; /* Set the left position of the element to 30% */
+
       }
+
       article:hover {
         border: 2px solid blue;
         background-color: blue;
@@ -76,14 +83,14 @@
    
 
     <div class="container">
-      <section id="video"></section>
+      <section id="video">  </section>
 
       <main></main>
     </div>
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-      let audio = new Audio("B.mp3");
+      // let audio = new Audio("B.mp3");
 
 function myFunction() {
 audio.play();
@@ -127,7 +134,7 @@ audio.play();
 
         function mainVideo(id) {
           $("#video").html(`
-     <iframe width="860" height="415" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     <iframe width="260" height="115" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 `);
         }
         // This is the results function loaded in the load function
@@ -143,8 +150,8 @@ audio.play();
         <article data-key="${vid}">
       <img src="${thumb}" alt="" class="thumb">
       <div class="details">
-        <h2>${title}</h2>
-        <p>${desciption}</p>
+        <h4>${title}</h4>
+       
       </div>
     </article>
 `);

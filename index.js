@@ -1,8 +1,10 @@
+
 // ------------script 1---------------------------------------
 let area1 = document.getElementById("dataHere1");    
 
-let url ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+let url ="https://corsanywhere.herokuapp.com/https://zenquotes.io/api/random/";
 
+// https://corsanywhere.herokuapp.com/
  
   function exchange1() {
     fetch(url)
@@ -19,7 +21,7 @@ let url ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
 // ------------script 2---------------------------------------
 let area2 = document.getElementById("dataHere2");    
 
-let url2 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+let url2 ="https://corsanywhere.herokuapp.com/https://zenquotes.io/api/random/";
 
  
   function exchange2() {
@@ -36,7 +38,7 @@ let url2 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/"
 // ------------script 3---------------------------------------
 let area3 = document.getElementById("dataHere3");    
 
-let url3 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+let url3 ="https://corsanywhere.herokuapp.com/https://zenquotes.io/api/random/";
 
  
   function exchange3() {
@@ -53,7 +55,7 @@ let url3 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/"
 // ------------script 4---------------------------------------
 let area4 = document.getElementById("dataHere4");    
 
-let url4 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+let url4 ="https://corsanywhere.herokuapp.com/https://zenquotes.io/api/random/";
 
  
   function exchange4() {
@@ -70,7 +72,7 @@ let url4 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/"
 // ------------script 5---------------------------------------
 let area5 = document.getElementById("dataHere5");    
 
-let url5 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+let url5 ="https://corsanywhere.herokuapp.com/https://zenquotes.io/api/random/";
 
  
   function exchange5() {
@@ -88,7 +90,7 @@ let url5 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/"
 // ------------script 6---------------------------------------
 let area6 = document.getElementById("dataHere6");    
 
-let url6 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/";
+let url6 ="https://corsanywhere.herokuapp.com/https://zenquotes.io/api/random/";
 
  
   function exchange6() {
@@ -107,7 +109,6 @@ let url6 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/"
 // ------------script 7---------------------------------------
 
   let area7 = document.getElementById("dataHere7");    
-
 
  
   function exchange7() {
@@ -159,7 +160,6 @@ let url6 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/"
 
       // ------------script 11---------------------------------------
 
-
       let area11 = document.getElementById("dataHere11");    
       
       
@@ -171,5 +171,6 @@ let url6 ="https://cors-anywhere.herokuapp.com/https://zenquotes.io/api/random/"
       
            
         }
+
 
 
