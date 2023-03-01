@@ -3,6 +3,7 @@
 ZenCents is an HTML, CSS & JavaScript Application that focusses in on the use of Zen Quotes and Guided Meditation to relieve stress and anxiety.
 
 ![image](https://github.com/Vjohnson222/Front-End-Project/blob/main/start.png)
+![image](https://github.com/Vjohnson222/Front-End-Project/blob/main/start.png?raw=true)
 
 ## APIs Used
 
