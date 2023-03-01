@@ -1,23 +1,111 @@
-
-.navbar  {
-  font-family: Montserrat, sans-serif;
-  top: -40px;
-  margin-top: 10px;
-  background: transparent;
-  border: 0;
-  font-size: 22px !important;
-  letter-spacing: 4px;
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
   }
-ul.nav a:hover { 
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  } }
+.dia{
+  width: 15px;
+  height: 45px;
+  opacity: 0.5;
+  border-radius: 50%;
+
+}
+.quotes {display: none;}
+
+
+           
+ /* body - This might help the backend to get cleaned up as well */ 
+ body {
+    background: rgb(141, 132, 132);
+    font-size: 0.875rem;
+    background: rgb(0, 6, 14);
+  }
+    
+  @media screen and (min-width: 800px) {
+    .nav-center {
+      max-width: 1170px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .nav-toggle {
+      display: none;
+    } }
+
+  nav {
+    background: rgb(62, 89, 115);
+    box-shadow:black;
+    
+  }
+
+ 
+  nav:hover{
+    background-color: transparent ;
+    transition-duration: 5s;
+  }
+  
+  
+
+  .links a:hover {
+    color: var(--clr-primary-5);
+    background: transparent;
+    transition-duration: 5s;
+
+  }
+ 
+
+/* //This  */
+  
+  .links {
+    overflow: hidden;
+    transition: var(--transition);
+    height: auto;
+    display: flex;
+    padding-right: 40px;
+  }
+  .links a {
+    color: var(--clr-grey-3);
+    font-size: 1.5rem;
+    letter-spacing: var(--spacing);
+    display: block;
+    padding-left: 1rem;
+    padding-right: 80px;
+    transition: var(--transition);
+    color: white;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+  ul.nav a:hover { 
 background-color: transparent !important; 
 color:#88bce1 !important;
 font-weight: bold;
+transition-duration: 5s;
+
 }
+
 
 body {
   text-align: center;
-  text-transform: uppercase;
-  padding: 50px 0;
   }
   .dia{
     width: 15px;
@@ -30,7 +118,7 @@ body {
   }
   .containers{
     color: #4c88b2;
-     margin-top: 80px;
+     margin-top: 120px;
     }
     .reset{
       color: #4c88b2;
@@ -294,4 +382,21 @@ body {
                   color: transparent;}
               }
              
+              @media screen and (min-width: 800px) {
+                .nav-center {
+                  max-width: 1170px;
+                  margin: 0 auto;
+                  display: flex;
+                  align-items: center;
+                }
+             
+                .nav-toggle {
+                  display: none;
+                } }
+                
+  .links a:hover {
+    color: var(--clr-primary-5);
+    background: transparent;
+    transition-duration: 5s;
 
+  }

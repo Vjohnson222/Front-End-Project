@@ -7,83 +7,163 @@
     <title>Meditations</title>
     <link rel="stylesheet" href="styles.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <style>
-      .navbar {
-        position: fixed;
-        top: 20px;
-      }
-      body {
-        background-image: url("./images/water2.gif");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-      }
-.container{
-margin-left: -320px;
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+       <style>
+    
+        body {
+          background-image: url("./images/water2.gif");
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        
+        .container{
+          margin-left: -320px;
+        }
+      
+        main {
+          padding-top: 350px;
+          margin-left: 20px;
+          position: relative;
+        }
+         
+        .details {
+          padding: 8px 12px;
+        }
+        
+        .navbar{
+          margin-left: 75px;
+        }
+      
+        /* This is the Glow  */
+        #video {
+          position: fixed;
+          text-align: center;
+          width: 43.5%;
+          top: 20.5%;
+          left: 32%;
+        }
+        
+        .glow {
+          position: relative;
+          background-color: #020c1b;
+          color: #64ffda;
+          border-radius: 10px;
+        }
+        
+        .glow:before,
+        .glow:after {
+          content: "";
+          position: absolute;
+          left: -3px;
+          top: -2px;
+          background: linear-gradient(to right, #00f260, #0575e6, #00f260);
+          width: 101%;
+          height: 100%;
+          z-index: -1;
+          border-radius: 10px;
+          border-radius: inherit;
+          animation: steam 20s infinite alternate;
+        }
+        
+        @keyframes steam {
+          0% {
+            background-position: 0 0;
+          }
+          50% {
+            background-position: 400% 0;
+          }
+          100% {
+            background-position: 0 0;
+          }
+        }
+        
+        .glow:after {
+          filter: blur(50px);
+        }
+      
+        article {
+          display: flex;
+          align-items: left;
+          padding: 8px 12px;
+          border-radius: 8px;
+          transition: all 0.2s ease;
+          margin: 0 auto;
+          color: white;
+          width: 40%; /* Set the width of the element to 70% to use only 30% of the space to the left */
+          left: 60%; /* Set the left position of the element to 30% */
+        }
+      
+        article:hover {
+          background-color: transparent;
+          opacity: 0.3;
+        }
+      
+        .thumb {
+          width: 32%;
+          height: 6%;
+          margin-right: 3%;
+          border-radius: 0.4%;
+          border-radius: 15%;
+          border-radius: 10%;
+          width: 160px;
+          margin-left: -19%;
+          display: flex;
+          position: sticky;
+        }
+      
+        .thumb:hover {
+          background: linear-gradient(to right, #00f260, #0575e6, #00f260);
+          animation: steam 20s infinite alternate;
+        }
+        nav {
+    background: rgb(62, 89, 115);
+    box-shadow:black;
+    position: fixed;
+    top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+    
+  }
+
+ 
+  nav:hover{
+    background-color: transparent ;
+    transition-duration: 5s;
+  }
+.vid{
+  margin-left: -120px;border-radius: 30px;
+  margin-top: 40px;
 }
-      #video {
-        position: fixed;
-        text-align: center;
-        /* width: 460px; */
-        border-radius: 50%;
-        top: 100px;
-        left: 420px;
-        /* opacity: 0.5; */
-      }
-      .thumb {
-        width: 90px;
-        height: 70px;
-        border-radius: 4px;
-        color: white;
-      }
-      main {
-        padding-top: 350px;
-       margin-left: 20px;
-      }
-      article {
-        display: flex;
-        align-items: left;
-        padding: 8px 12px;
-        border-radius: 8px;
-        transition: all 0.2s ease;
-        margin: 0 auto;
-        color: white;
-        width: 40%; /* Set the width of the element to 70% to use only 30% of the space to the left */
-        left: 60%; /* Set the left position of the element to 30% */
-
-      }
-
-      article:hover {
-        border: 2px solid blue;
-        background-color: blue;
-        opacity: 0.3;
-      }
-      .details {
-        padding: 8px 12px;
-      }
-      .navbar{
-        margin-left: 75px;
-      }
-    </style>
+      
+      </style>
   </head>
 
-  <body onload="myFunction()">
-    <nav class="navbar">
-      <ul class="nav navbar-nav">
-        <li><a href="home.html" style="color: white">Home</a></li>
-        <li><a href="about.html" style="color: white">About</a></li>
-        <li><a href="meditation.html" style="color: white">Meditations</a></li>
-        <li><a href="contact.html" style="color: white">Contact</a></li>
-      </ul>
+  <body >
+    <nav  >
+      <div class="nav-center">
+               <ul class="links " >
+          <li><a href="index.html" style="color: white">
+            <i class="fa fa-home" style="font-size:48px;color:white;">
+            </i></a></li>
+
+          <li><a href="home.html" style="color: white">Home</a></li>
+          <li><a href="about.html" style="color: white">About</a></li>
+          <li><a href="meditation.html" style="color: white">Meditations</a></li>
+          <li><a href="contact.html" style="color: white">Contact</a></li>
+
+        </ul>
+       </div>
     </nav>
+  
+    </div>
+    <br>
    
 
     <div class="container">
-      <section id="video">  </section>
+      <section id="video" className="glow">  </section>
 
       <main></main>
     </div>
@@ -134,8 +214,11 @@ audio.play();
 
         function mainVideo(id) {
           $("#video").html(`
-     <iframe width="260" height="115" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     <iframe class="vid" width="860" height="415" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 `);
+
+width="860"
+          height="415"
         }
         // This is the results function loaded in the load function
         // Come Back here
@@ -150,7 +233,7 @@ audio.play();
         <article data-key="${vid}">
       <img src="${thumb}" alt="" class="thumb">
       <div class="details">
-        <h4>${title}</h4>
+      
        
       </div>
     </article>
