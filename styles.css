@@ -135,7 +135,7 @@ body {
       position: relative;
 
       animation-name: example1;
-      animation-duration: 90s;  
+      animation-duration: 117s;  
       animation-fill-mode: backwards;
       border-radius: 50%;
       border-color: transparent;
@@ -163,7 +163,7 @@ body {
       position: relative;
 
       animation-name: example2;
-      animation-duration: 60s;  
+      animation-duration: 70s;  
       animation-fill-mode: backwards;
       border-radius: 50%;
       border-color: transparent;
@@ -188,7 +188,7 @@ body {
           background: transparent;
           position: relative;
           animation-name: example3;
-          animation-duration: 100s;  
+          animation-duration: 110s;  
   
           animation-fill-mode: forwards;
           border-radius: 50%;
@@ -212,7 +212,7 @@ body {
           background: transparent;
           position: relative;
           animation-name: example4;
-          animation-duration: 80s;      
+          animation-duration: 90s;      
   
           animation-fill-mode: forwards;
           border-radius: 50%;
@@ -239,7 +239,7 @@ body {
              background: transparent;
               position: relative;
               animation-name: example5;
-              animation-duration: 50s;  
+              animation-duration: 60s;  
   
               animation-fill-mode: forwards;
               border-radius: 50%;
@@ -264,7 +264,7 @@ body {
               background: transparent;
               position: relative;
               animation-name: example6;
-              animation-duration: 70s;  
+              animation-duration: 80s;  
               animation-fill-mode: backwards;
               border-radius: 50%;
               border-color: transparent;
@@ -286,7 +286,7 @@ body {
                 background: transparent;
                 position: relative;
                 animation-name: example7;
-                animation-duration: 50s;      
+                animation-duration: 10s;      
                 animation-fill-mode: forwards;
                 border-radius: 50%;
                 border-color: transparent;
@@ -328,7 +328,7 @@ body {
                 background: transparent;
                 position: relative;
                 animation-name: example9;
-                animation-duration: 20s;      
+                animation-duration: 30s;      
                 animation-fill-mode: forwards;
                 border-radius: 50%;
                 border-color: transparent;
@@ -367,7 +367,7 @@ body {
                 background: transparent;
                 position: relative;
                 animation-name: example10;
-                animation-duration: 30s;      
+                animation-duration: 40s;      
                 animation-fill-mode: forwards;
                 border-radius: 50%;
                 border-color: transparent;

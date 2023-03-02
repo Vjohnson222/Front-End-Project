@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>MED2</title>
+      <title>MED1</title>
       <link rel="stylesheet" href="styles.css">
       <link
       rel="stylesheet"
@@ -30,39 +30,60 @@
         #player{
             border-radius: 5%;
             width:100%;
-            opacity: 0.5;
+            opacity: 0.9;
      }
-     .navbar{
-        margin-left: 75px;
-        top:2px;
+     nav {
+        background: rgb(62, 89, 115);
+        box-shadow: black;
+        position: fixed;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        padding-top:25px;
       }
-       </style>
+      nav:hover {
+        background-color: transparent;
+        transition-duration: 5s;
+      }
+      .iframe{margin-top: 125px;}
+    </style>
  </head>
 
-<body>
-  <nav class="navbar ">
-  
-    
-    <ul class="nav navbar-nav" >
-      <li><a href="home.html" style="color: white">Home</a></li>
-      <li><a href="about.html"style="color:white" >About</a></li>
-      <li><a href="med.html"style="color:white" >Meditations</a></li>
-      <li><a href="contact.html"style="color:white" >Contact</a></li>
-
-    </ul>
-    
-      </nav>
+ <body>
+ 
+  <nav>
+    <div class="nav-center">
+      <!-- nav header -->
+      <div class="nav-header"></div>
+      <!-- links -->
+      <ul class="links" style="margin-left: -10">
+        <li>
+          <a href="index.html" style="color: white">
+            <i class="fa fa-home" style="font-size: 48px; color: white"> </i
+          ></a>
+        </li>
+        <li><a href="home.html" style="color: white">Home</a></li>
+        <li><a href="about.html" style="color: white">About</a></li>
+        <li>
+          <a href="meditation.html" style="color: white">Meditations</a>
+        </li>
+        <li><a href="contact.html" style="color: white">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Nav ends Here  -->
+  <!-- -------------------------------------------------- -->
      
   
     
 <div class="container">
   <div class="row">
     
-    <h1></h1>
-         
-    <script src="https://www.youtube.com/iframe_api"></script>
-
-    <iframe id="player" type="text/html" width="1100" height="500"
+  
+ 
+    <iframe class="iframe" id="player" type="text/html" width="1100" height="500"
       src="https://www.youtube.com/embed/3pA5cBCED1Q?enablejsapi=1&origin=http://example.com"
       frameborder="0"></iframe>
 
@@ -74,6 +95,7 @@
     <button id="six"  onclick="exchange6()"> <div style ="color: transparent" id="dataHere6"></div><img class= "dia" src="./images/Drip.png" ></button>
     <button id="seven"  onclick="exchange7()"> <div style ="color: transparent" id="dataHere7"></button>
 
+      <script src="https://www.youtube.com/iframe_api"></script>
       <script src="index.js"></script>
     </div>
   </div>

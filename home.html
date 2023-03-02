@@ -66,8 +66,12 @@ nav {
     </div>
     <br>
     <div class="containers">
-      <h1 class="quotes">Click On a Slow Drop &nbsp; <img class="dia" src="./images/Drip.png" /></h2>
-      <h2 class="quotes"> Then Click on a feeling for guided Meditation</h2>
+      <h1 class="quotes">Click On a Slow Drop &nbsp; <img  class="dia" src="./images/Drip.png" onclick="exchange1()">
+        <div id="dataHere1"></div>
+      </h2>
+      <h2 class="quotes" ><img  class="dia" src="./images/Drip.png" onclick="exchange4()"> Then Click on a feeling for guided Meditation </h2>
+      
+      <div id="dataHere4"></div>
       <h1 class="quotes"><a class="nav-link" style="text-decoration: none" href="index.html">Reset </a></h2>
 
     </div>
@@ -153,8 +157,8 @@ nav {
           quotes
             .eq(quoteIndex % quotes.length)
             .fadeIn(3000)
-            .delay(3000)
-            .fadeOut(3000, showNextQuote);
+            .delay(6000)
+            .fadeOut(6000, showNextQuote);
         }
 
         showNextQuote();
